@@ -42,6 +42,14 @@ namespace LINQSession2
             //    Console.WriteLine(p);
             //}
             #endregion
+
+            #region Q4
+            //Check if ALL products in the "Seafood" category are in stock 
+
+            //var result = Source.ProductList.Where(p => p.Category == "Seafood").All(p => p.UnitsInStock > 0);
+
+            //Console.WriteLine($"are all products in the \"Seafood\" category are in stock: {result}");
+            #endregion
         }
     }
 }
