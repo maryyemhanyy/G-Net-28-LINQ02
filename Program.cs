@@ -183,6 +183,16 @@ namespace LINQSession2
             //    Console.WriteLine(item);
             //}
             #endregion
+
+            #region Q15
+            //Build a Dictionary<int, Product> keyed by ProductID. Then retrieve and print the product with ID = 18.
+
+            //var result = Source.ProductList.ToDictionary(p => p.ProductID);
+
+            //var product = result[18];
+
+            //Console.WriteLine(product);
+            #endregion
         }
     }
 }
