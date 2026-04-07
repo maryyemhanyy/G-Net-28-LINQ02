@@ -50,6 +50,15 @@ namespace LINQSession2
 
             //Console.WriteLine($"are all products in the \"Seafood\" category are in stock: {result}");
             #endregion
+
+            #region Q5
+            // Check if the ID list contains 9 int[] ids = { 3, 9, 13, 18 };
+
+            //int[] ids = { 3, 9, 13, 18 };
+
+            //bool result = ids.Contains(9);
+            //Console.WriteLine(result);
+            #endregion
         }
     }
 }
