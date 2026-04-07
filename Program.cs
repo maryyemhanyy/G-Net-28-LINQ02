@@ -1,4 +1,7 @@
-﻿namespace LINQSession2
+﻿using System.Collections.Generic;
+using System.Diagnostics;
+
+namespace LINQSession2
 {
     internal class Program
     {
@@ -22,6 +25,17 @@
             //int pageSize = 5;
 
             //var result = Source.ProductList.Skip((pageNumber - 1) * pageSize).Take(pageSize);
+
+            //foreach (var p in result)
+            //{
+            //    Console.WriteLine(p);
+            //}
+            #endregion
+
+            #region Q3
+            //Take products from the list as long as Their UnitPrice is less than $25(list is ordered by price).
+
+            //var result = Source.ProductList.OrderBy(p => p.UnitPrice).TakeWhile(p => p.UnitPrice < 25);
 
             //foreach (var p in result)
             //{
