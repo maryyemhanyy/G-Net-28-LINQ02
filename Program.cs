@@ -130,6 +130,16 @@ namespace LINQSession2
 
             //Console.WriteLine(result);
             #endregion
+
+            #region Q11
+            //Find the CHEAPEST and MOST EXPENSIVE product prices 
+
+            //var cheapest = Source.ProductList.Min(p => p.UnitPrice);
+            //var expensive = Source.ProductList.Max(p => p.UnitPrice);
+
+            //Console.WriteLine($"CHEAPEST: {cheapest}");
+            //Console.WriteLine($"MOST EXPENSIVE: {expensive}");
+            #endregion
         }
     }
 }
