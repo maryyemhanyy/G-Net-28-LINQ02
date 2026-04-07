@@ -140,6 +140,17 @@ namespace LINQSession2
             //Console.WriteLine($"CHEAPEST: {cheapest}");
             //Console.WriteLine($"MOST EXPENSIVE: {expensive}");
             #endregion
+
+            #region Q12
+            //Get a distinct list of all product categories 
+
+            //var result = Source.ProductList.Select(p => p.Category).Distinct();
+
+            //foreach (var p in result)
+            //{
+            //    Console.WriteLine(p);
+            //}
+            #endregion
         }
     }
 }
