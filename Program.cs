@@ -70,6 +70,28 @@ namespace LINQSession2
             //    Console.WriteLine($"Category: {pgroup.Key} has {pgroup.Count()} products");
             //}
             #endregion
+
+            #region Q7
+            //Group products by Category and project only product names per group
+
+            //var result = Source.ProductList.GroupBy(p => p.Category)
+            //                                .Select(g => new
+            //                                {
+            //                                    Category = g.Key,
+            //                                    Products = g.Select(p => p.ProductName)
+            //                                });
+                                           
+            //foreach (var pgroup in result)
+            //{
+            //    Console.WriteLine($"Category: {pgroup.Category}");
+
+            //    foreach (var pname in pgroup.Products)
+            //    {
+            //        Console.WriteLine($"{pname}");
+            //    }
+            //    Console.WriteLine("--------------");
+            //}
+            #endregion
         }
     }
 }
