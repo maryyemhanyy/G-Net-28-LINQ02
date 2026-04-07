@@ -59,6 +59,17 @@ namespace LINQSession2
             //bool result = ids.Contains(9);
             //Console.WriteLine(result);
             #endregion
+
+            #region Q6
+            // Group all products by Category and print each group with its product count.
+
+            //var result = Source.ProductList.GroupBy(p => p.Category);
+
+            //foreach (var pgroup in result)
+            //{
+            //    Console.WriteLine($"Category: {pgroup.Key} has {pgroup.Count()} products");
+            //}
+            #endregion
         }
     }
 }
