@@ -80,7 +80,7 @@ namespace LINQSession2
             //                                    Category = g.Key,
             //                                    Products = g.Select(p => p.ProductName)
             //                                });
-                                           
+
             //foreach (var pgroup in result)
             //{
             //    Console.WriteLine($"Category: {pgroup.Category}");
@@ -90,6 +90,17 @@ namespace LINQSession2
             //        Console.WriteLine($"{pname}");
             //    }
             //    Console.WriteLine("--------------");
+            //}
+            #endregion
+
+            #region Q8
+            //Find all categories that have MORE THAN 3 products 
+
+            //var result = Source.ProductList.GroupBy(p => p.Category).Where(g => g.Count() > 3).Select(g => g.Key);
+
+            //foreach (var c in result)
+            //{
+            //    Console.WriteLine(c);
             //}
             #endregion
         }
