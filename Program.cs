@@ -227,6 +227,17 @@ namespace LINQSession2
             //    Console.WriteLine(i);
             //}
             #endregion
+
+            #region Q19
+            //Generate even numbers between 1 and 30.
+
+            //var result = Enumerable.Range(1, 30).Where(n => n % 2 == 0);
+
+            //foreach (var n in result)
+            //{
+            //    Console.WriteLine(n);
+            //}
+            #endregion
         }
     }
 }
