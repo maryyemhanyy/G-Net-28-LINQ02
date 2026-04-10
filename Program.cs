@@ -216,6 +216,17 @@ namespace LINQSession2
             //    Console.WriteLine("No product found");
             //}
             #endregion
+
+            #region Q18
+            //Generate a multiplication table row for 7
+
+            //var result = Enumerable.Range(1, 12).Select(i => $"7 x {i} = {7 * i}");
+
+            //foreach (var i in result)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            #endregion
         }
     }
 }
