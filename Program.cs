@@ -201,6 +201,21 @@ namespace LINQSession2
 
             //Console.WriteLine(result);
             #endregion
+
+            #region Q17
+            //Try to get the first product with a price > $500. it returns null instead of throwing.
+
+            //var result = Source.ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+
+            //if (result != null)
+            //{
+            //    Console.WriteLine(result);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No product found");
+            //}
+            #endregion
         }
     }
 }
