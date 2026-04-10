@@ -251,6 +251,18 @@ namespace LINQSession2
             //    Console.WriteLine(item);
             //}
             #endregion
+
+            #region Q21
+            /*Pair each product with a customer (by position) and produce
+             a string "ProductName sold to CompanyName".*/
+
+            //var result = Source.ProductList.Zip(Source.CustomerList,(p, c) => $"{p.ProductName} sold to {c.CompanyName}");
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
         }
     }
 }
