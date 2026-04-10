@@ -193,6 +193,14 @@ namespace LINQSession2
 
             //Console.WriteLine(product);
             #endregion
+
+            #region Q16
+            //Get the first product whose price is greater than $50.
+
+            //var result = Source.ProductList.FirstOrDefault(p => p.UnitPrice > 50);
+
+            //Console.WriteLine(result);
+            #endregion
         }
     }
 }
