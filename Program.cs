@@ -238,6 +238,19 @@ namespace LINQSession2
             //    Console.WriteLine(n);
             //}
             #endregion
+
+            #region Q20
+            /*Concatenate the first 3 product names with the first 3
+               customer company names into a single sequence.*/
+
+            //var result = Source.ProductList.Take(3).Select(p => p.ProductName).Concat(Source.CustomerList.Take(3)
+            //                                       .Select(c => c.CompanyName)); 
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
         }
     }
 }
